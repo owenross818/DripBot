@@ -1,0 +1,76 @@
+body {
+font-family: "Times New Roman", serif;
+text-align: center;
+padding: 40px;
+background: #454545;
+}
+
+button {
+padding: 12px 24px;
+font-size: 18px;
+border: none;
+background-color: #111;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #333;
+}
+
+#outfit {
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.outfit-vibe {
+font-size: 22px;
+margin-bottom: 20px;
+}
+
+.outfit-stack {
+background-color: #ffffff;
+padding: 40px;
+margin: 10px auto;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0; /* removes space between images */
+}
+
+.outfit-piece {
+width: 100%;
+height: 100%px;
+overflow: hidden;
+}
+
+.outfit-piece img {
+width: 180px;
+height: 200;
+object-fit: contain;
+display: block;
+margin: 0;
+padding: 0;
+border-radius: 0;
+}
+
+.buy-links {
+margin-top: 20px;
+}
+
+.buy-links a {
+display: block;
+margin: 5px 0;
+color: #007bff;
+text-decoration: none;
+font-size: 14px;
+}
+
+.buy-links a:hover {
+text-decoration: underline;
+}
